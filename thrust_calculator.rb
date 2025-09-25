@@ -4,7 +4,7 @@
 def rocket_thrust(m_dot, ve, pe, pa, ae)
   thrust = m_dot * ve + (pe - pa) * ae
   return thrust
-end
+en
 
 puts "Rocket Thrust Calculator"
 print "Mass flow rate (kg/s): "
