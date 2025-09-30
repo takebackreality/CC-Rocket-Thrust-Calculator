@@ -16,7 +16,7 @@ pe = gets.to_f
 print "Ambient pressure (Pa): "
 pa = gets.to_f
 print "Nozzle exit area (m^2): "
-ae = gets.to_
+ae = gets.to_f
 
 thrust = rocket_thrust(m_dot, ve, pe, pa, ae)
 puts "Thrust = #{thrust.round(2)} N"
