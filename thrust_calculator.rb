@@ -10,7 +10,7 @@ puts "Rocket Thrust Calculator"
 print "Mass flow rate (kg/s): "
 m_dot = gets.to_f
 print "Exhaust velocity (m/s): "
-ve = gets.to_f
+ve = gets.to_
 print "Exit pressure (Pa): "
 pe = gets.to_f
 print "Ambient pressure (Pa): "
